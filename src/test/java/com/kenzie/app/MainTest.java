@@ -233,6 +233,7 @@ public class MainTest {
 			assertEquals(TEST_FORMATTED_ACTIVITY, Main.formatActivityOutput(TEST_KEY_RESPONSE),"Parse activity from JSON");
 		}
 		catch (Exception e) {
+			e.printStackTrace();
 			fail("Exception " + e);
 		}
 	}
